@@ -15,6 +15,6 @@ function increaseRankBy(n) {
   let target = document.getElementsByClassName('ranked-list')
 
   for(let i = 0; i < target.length; i++) {
-      target[i].innerHTML =  n //parseInt(target[i]) + 1
+      target[i].innerHTML =  "hello" //parseInt(target[i]) + 1
   }
 }
