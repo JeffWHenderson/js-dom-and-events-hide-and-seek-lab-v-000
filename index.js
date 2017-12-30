@@ -12,7 +12,7 @@ function deepestChild() {
 }
 
 function increaseRankBy(n) {
-  let target = document.querySelector('.ranked-list')
+  let target = document.getElementByClassName('ranked-list')
   for(let i = 0; i < target.length; i++) {
       target[i].innerHTML =  2 //parseInt(target[i]) + 1
   }
